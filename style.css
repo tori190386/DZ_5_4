@@ -1,0 +1,41 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+.on {
+    width: 460px;
+    border: 1px solid black;
+}
+.fullwrap {
+    margin: 10px;
+    width: 480px;
+    background: #FF6600;
+}
+.header {
+    margin: 10px auto 15px;
+    height: 61px;
+    background: #00F1FF;
+}
+.wrap {
+    margin: auto;
+    background: #FFF;
+}
+.main {
+    margin: 10px 5px;
+    width: 255px;
+    height: 290px;
+    background: #FF6600;
+    float: left;
+}
+.sidebar {
+    margin: 10px 5px;
+    width: 165px;
+    height: 290px;
+    background: #00F1FF;
+    float: right;
+}
+.footer {
+    margin: 10px auto 15px;
+    height: 100px;
+    background: #FFF;
+}
