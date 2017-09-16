@@ -6,6 +6,7 @@
     width: 460px;
     border: 1px solid black;
 }
+
 .fullwrap {
     margin: 10px;
     width: 480px;
@@ -33,6 +34,11 @@
     height: 290px;
     background: #00F1FF;
     float: right;
+}
+.clearfix::after {
+    display: block;
+    content: "";
+    clear: both;
 }
 .footer {
     margin: 10px auto 15px;
